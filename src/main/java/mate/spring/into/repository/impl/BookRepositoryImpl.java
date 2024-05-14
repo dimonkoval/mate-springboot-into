@@ -9,11 +9,11 @@ import org.springframework.stereotype.Repository;
 public class BookRepositoryImpl implements BookRepository {
     @Override
     public Book save(Book book) {
-        return null;
+        return save(book);
     }
 
     @Override
     public List<Book> findAll() {
-        return null;
+        return findAll();
     }
 }
