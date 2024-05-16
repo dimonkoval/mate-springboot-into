@@ -1,6 +1,9 @@
 package mate.spring.into.service.impl;
 
 import java.util.List;
+import java.util.stream.Collectors;
+
+import lombok.RequiredArgsConstructor;
 import mate.spring.into.dto.BookDto;
 import mate.spring.into.dto.CreateBookRequestDto;
 import mate.spring.into.exception.EntityNotFoundException;
@@ -11,14 +14,10 @@ import mate.spring.into.service.BookService;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class BookServiceImpl implements BookService {
-    private BookRepository bookRepository;
-    private BookMapper bookMapper;
-
-    public BookServiceImpl(BookRepository bookRepository, BookMapper bookMapper) {
-        this.bookRepository = bookRepository;
-        this.bookMapper = bookMapper;
-    }
+    private final BookRepository bookRepository;
+private final BookMapper bookMapper;
 
     @Override
     public Book save(Book book) {
@@ -30,7 +29,7 @@ public class BookServiceImpl implements BookService {
         return bookRepository.findAll()
                 .stream()
                 .map(bookMapper::toDto)
-                .toList();
+                .collect(Collectors.toList());
     }
 
     @Override

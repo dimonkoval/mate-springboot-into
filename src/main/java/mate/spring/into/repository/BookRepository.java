@@ -5,7 +5,7 @@ import java.util.Optional;
 import mate.spring.into.model.Book;
 import org.springframework.stereotype.Repository;
 
-@Repository
+//@Repository
 public interface BookRepository {
     Book save(Book book);
 
