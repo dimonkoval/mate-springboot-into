@@ -2,7 +2,6 @@ package mate.spring.into.service.impl;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
 import lombok.RequiredArgsConstructor;
 import mate.spring.into.dto.BookDto;
 import mate.spring.into.dto.CreateBookRequestDto;
@@ -17,7 +16,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class BookServiceImpl implements BookService {
     private final BookRepository bookRepository;
-private final BookMapper bookMapper;
+    private final BookMapper bookMapper;
 
     @Override
     public Book save(Book book) {
