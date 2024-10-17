@@ -1,0 +1,74 @@
+[33mcommit 1003436c3a144a391f8ffd2bbfa8884734b9396d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: b33f351 8f45682
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Fri May 17 22:31:46 2024 +0300
+
+    Merge pull request #1 from dimonkoval/dimon
+    
+    Dimon
+
+[33mcommit 8f4568291eae699a0da07820ea758ebe29cacbd1[m[33m ([m[1;31morigin/dimon[m[33m)[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Thu May 16 20:34:01 2024 +0300
+
+    added @RequiredArgsConstructor and @Mapper
+
+[33mcommit 90d7e76dbccd8b53ebf60bc2654867dc710c08d1[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Thu May 16 20:24:11 2024 +0300
+
+    added @RequiredArgsConstructor and @Mapper
+
+[33mcommit 37f047ef0c375ae835a42d69718a7ee43d5ee05c[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Wed May 15 13:29:37 2024 +0300
+
+    first commit
+
+[33mcommit 7585728058549fd2b0d76dc2ff0b75492a48ff79[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 22:41:59 2024 +0300
+
+    add mysql for prod db
+
+[33mcommit 65d8e9ed9a12c989f63b80eb71dd0396c3eb4b1c[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 20:46:33 2024 +0300
+
+    add repository
+
+[33mcommit 4d3114cab9dca7e9d2688b262a5c31c6b6c5c11c[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 11:26:57 2024 +0300
+
+    add @Table. isbn, deleted @Data
+
+[33mcommit f9e09f4dfd0c6f36aa975505a88ef1249b436b66[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 11:25:23 2024 +0300
+
+    add @Table. isbn, deleted @Data
+
+[33mcommit a6bda886956690af0215e198392083c6dd8d425f[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 00:51:08 2024 +0300
+
+    add clases
+
+[33mcommit 36e1de41dcdac873699b4c2f37af204716689539[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 00:47:46 2024 +0300
+
+    add clases
+
+[33mcommit 2f962dcefed46d5a9162ae900db99bb1adb3c3c1[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 00:29:13 2024 +0300
+
+    second
+
+[33mcommit b33f3514c3e8cd81e0df371c112710f089e23747[m
+Author: Dmytro Koval <dimonkoval@gmail.com>
+Date:   Tue May 14 00:27:37 2024 +0300
+
+    first commit
